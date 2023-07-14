@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.logo{
+    margin-top: 0px;
+    width: 100%;
+    max-height:300px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.slikalogo{
+    width: 50%;
+    max-height: 200px;
+}
+#img{
+    width: 25%;
+}
+h2{
+    text-transform: uppercase;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: left;
+    font-size: xx-large;
+}
+.voce{
+    height: 100%;
+    background-image: url(img/pozadina.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.podnaslov{
+    background-color: black;
+    color: gold;
+    text-transform:uppercase;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.linija{
+    border: 1px solid gold;
+}
+.dugme{
+    text-align: center;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-height: 400px;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+button{
+    font-size: x-large;
+    padding: 45px;
+    color: gold;
+    background-color: black;
+    border-radius: 20%;
+}
+.centriraj{
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:500px){
+    button{
+        margin: 5px;
+        padding: 20px;
+    }
+    #img{
+        width:64%;
+    }
+}
